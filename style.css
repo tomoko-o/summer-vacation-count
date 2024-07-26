@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+main {
+  width: 310px;
+  margin: 30px auto;
+  border: #ddd 2px solid;
+  border-radius: 16px;
+  padding: 11px;
+}
+
+section {
+  padding: 0 20px;
+}
+
+span#summer-days, span#new-term, span#temps_max {
+  color: red;
+}
+
+section.today {
+  text-align: center;
+}
+
+section div#weather {
+  font-size: 0.8em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+section div#weather p{
+  margin: 0;
+}
+
+section div#weather p span#temps_min {
+  color: blue;
+}
+
+section:nth-child(1){
+  border-bottom: 3px double #ddd;
+}
+
+section:nth-child(3){
+  border-top: 2px dotted #ddd;
+}
+
+section:not(.today) {
+  font-size: 1.5em;
+}
+
+.hidden {
+  display: none;
+}

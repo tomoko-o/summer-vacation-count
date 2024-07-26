@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>夏休みあと何日！</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main>
+    <section class="today">
+      <div id="today"></div>
+      <div id="weather">
+        <img src="" height="80" width="80" id="weather_img">
+        <p id="weather_text"></p>
+        <p><span id="temps_min"></span>/<span id="temps_max"></span></p>
+      </div>
+    </section>
+    <section id="school">
+      <p><span id="summer-school">夏季保育まであと</span> <span id="summer-days"></span></p>
+    </section>
+  
+    <section>
+      <p>始業式まであと <span id="new-term"></span></p>
+      
+    </section>
+  </main>
+  <script src="main.js?date=20230825"></script>
+  <script src="weather.js?date=202308220926"></script>
+</body>
+</html>
